@@ -1,0 +1,56 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-items: start;
+}
+
+body {
+    margin: 0px;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    background-color: #b5c2f3;
+    animation: backcolor 5s infinite alternate;
+}
+
+button {
+    background-color: rgb(170, 146, 255);
+    box-shadow: 0 3px 0 rgb(109, 94, 248);
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  button:hover {
+    background-color: #70eef7;
+    cursor: pointer;
+  }
+  
+  button:active {
+    box-shadow: none;
+    top: 3px;
+  }
+
+a {
+    background-color: rgb(170, 146, 255);
+    box-shadow: 0 5px 0 rgb(109, 94, 248);
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  a:hover {
+    background-color: #70eef7;
+    cursor: pointer;
+  }
+  
+  a:active {
+    box-shadow: none;
+    top: 5px;
+  }
+  
+
+
