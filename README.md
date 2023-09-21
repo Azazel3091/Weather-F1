@@ -12,7 +12,7 @@
 Данные должны запрашиваться через One Call API OpenWeather.
 ________________________________________________________________________
 
-Клонируем репозиторий в IDE или BASH: git clone git@github.com:Azazel3091/Weather-F1.git
+Клонируем репозиторий в IDE или BASH: `git clone git@github.com:Azazel3091/Weather-F1.git`
 
 Установить модули: `npm install`
 
